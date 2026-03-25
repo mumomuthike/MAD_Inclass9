@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Fun Signup App',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(primarySwatch: Colors.purple),
+      theme: ThemeData(primarySwatch: Colors.lightBlue),
       home: const SignupPage(),
     );
   }
@@ -57,7 +57,7 @@ class _SignupPageState extends State<SignupPage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Join Us Today for the Cash Money!'),
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.lightBlue,
       ),
       body: SingleChildScrollView(
         child: Padding(
@@ -138,7 +138,7 @@ class _SignupPageState extends State<SignupPage> {
                 ElevatedButton(
                   onPressed: _submitForm,
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.purple,
+                    backgroundColor: Colors.lightBlue,
                     padding: const EdgeInsets.symmetric(
                       horizontal: 40,
                       vertical: 14,
